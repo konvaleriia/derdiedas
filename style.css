@@ -1,0 +1,125 @@
+.body-bg {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dedde2;
+    color: #ff0000;
+}
+
+
+.header-homepage {
+    background-color: #a69d9e;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name-school {
+    flex-grow: 1;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+}
+
+.name-school img {
+    height: 50px;
+    width: auto;
+    justify-content: left;
+}
+
+
+.name-school a {
+    text-decoration: none;
+    color: #263c87;
+    font-weight: bold;
+    font-size: larger;
+    padding-left: 50px;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: right;
+
+}
+
+nav ul li {
+    margin: 0 10px; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+.main-homepage {
+    padding: 20px;
+    text-align: center;
+}
+
+.main-home-h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #e7324d;
+}
+
+.course-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.course-list li {
+    background: #fff;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: left;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.course-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.course-list h2 {
+    font-size: 24px;
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.course-list p {
+    font-size: 16px;
+    color: #666;
+}
+footer {
+    background-color: #f9af78;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

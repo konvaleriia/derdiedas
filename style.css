@@ -34,7 +34,7 @@
     text-decoration: none;
     color: #263c87;
     font-weight: bold;
-    font-size: larger;
+    font-size: xx-large;
     padding-left: 50px;
 }
 
@@ -72,10 +72,27 @@ nav ul li a:hover {
     text-align: center;
 }
 
-.main-home-h1 {
+.main-home-h2 {
     font-size: 32px;
     margin-bottom: 20px;
     color: #e7324d;
+}
+
+.schedule-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.schedule {
+    height: 300px;
+    border: 6px solid #765484fa;
+    border-radius: 25px;
+    transition: transform 0.3s ease;
+}
+    
+.schedule:hover {
+    transform: scale(1.2);
 }
 
 .course-list {

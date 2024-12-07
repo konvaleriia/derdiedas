@@ -1,12 +1,17 @@
+/* Основні стилі */
 .body-bg {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #dedde2;
     color: #ff0000;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* Встановлюємо висоту сторінки на весь екран */
 }
 
-
+/* Хедер */
 .header-homepage {
     background-color: #a69d9e;
     color: #fff;
@@ -26,9 +31,7 @@
 .name-school img {
     height: 50px;
     width: auto;
-    justify-content: left;
 }
-
 
 .name-school a {
     text-decoration: none;
@@ -38,18 +41,15 @@
     padding-left: 50px;
 }
 
-
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
-    text-align: right;
-
 }
 
 nav ul li {
-    margin: 0 10px; 
+    margin: 0 10px;
 }
 
 nav ul li a {
@@ -62,12 +62,10 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-
-
-
-
-
-.main-homepage {
+/* Основний контент */
+main {
+    flex: 1;
+    /* Дозволяє основному контенту розтягуватись */
     padding: 20px;
     text-align: center;
 }
@@ -90,11 +88,12 @@ nav ul li a:hover {
     border-radius: 25px;
     transition: transform 0.3s ease;
 }
-    
+
 .schedule:hover {
     transform: scale(1.2);
 }
 
+/* Курси */
 .course-list {
     display: flex;
     flex-wrap: wrap;
@@ -129,14 +128,12 @@ nav ul li a:hover {
     font-size: 16px;
     color: #666;
 }
+
+
 footer {
     background-color: #f9af78;
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    margin-top: 20px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    font-size: 14px;
 }
